@@ -517,8 +517,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 ---
 
 # 💡 Boas práticas de documentação
-- [📝 Como escrever uma documentação voltada para solução de problemas](#-como-escrever-uma-documentação-voltada-para-solução-de-problemas)
-- 
+ 
 ## 📝 Como escrever uma documentação voltada para solução de problemas
 
 - Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação.
