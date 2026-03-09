@@ -49,5 +49,5 @@
 
 ## 📖 Conteúdo Disponível | Available Content
 
-### 🔧 [Troubleshooting — Base de Conhecimento](./troubleshooting/)
+### 🔧 [Troubleshooting — Base de Conhecimento](./troubleshooting/troubleshooting.md)
 
