@@ -4,11 +4,11 @@ Criei esse arquivo em Markwdown com a intenção de demonstrar meus conhecimento
 
 ##  Tabela de Conteúdos
 
-* [Índice de Problemas](#índice-de-problemas);
-* [Modelo de documentação (exemplo)](#modelo-de-documentação);
-* [Boas práticas de documentação](#boas-práticas-de-documentação):
-    * [Como escrever uma documentação voltada para solução de problemas](#documentação-voltada-para-solução).
-* [Boas práticas para ordem de serviço ou chamados](#boas-práticas-tickets).
+- [Índice de Problemas](#índice-de-problemas);
+- [Modelo de documentação (exemplo)](#modelo-de-documentação-(exemplo));
+- [Boas práticas de documentação](#boas-práticas-de-documentação):
+    - [Como escrever uma documentação voltada para solução de problemas](#documentação-voltada-para-solução).
+- [Boas práticas para ordem de serviço ou chamados](#boas-práticas-tickets).
   
 ---
 
@@ -517,7 +517,8 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 ---
 
 # 💡 Boas práticas de documentação
-
+- [📝 Como escrever uma documentação voltada para solução de problemas](#-como-escrever-uma-documentação-voltada-para-solução-de-problemas)
+- 
 ## 📝 Como escrever uma documentação voltada para solução de problemas
 
 - Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação.
