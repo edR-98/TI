@@ -4,7 +4,7 @@
 
 <p align="center">
   <em>Documentação prática de tudo que já aprendi, aprendo, resolvo e aplico na área de Tecnologia da Informação.</em><br>
-  <em>Practical documentation of everything I learned, still learn, solve and apply in Information Technology.</em>
+  <em>Practical documentation of everything I've learned, still learn, solve and apply in Information Technology.</em>
 </p>
 
 <p align="center">
@@ -17,15 +17,19 @@
 
 <h2 align="center">📌 Sobre este repositório | About this repository </h2>
 
-> 🇧🇷 Este repositório é um registro vivo do meu aprendizado em TI.  
-> Aqui você encontrará documentações que escrevi sobre problemas reais, soluções aplicadas, boas práticas e estudos organizados — da forma como um técnico de TI faz no dia a dia.
+> <p align ="center"> 🇧🇷 Este repositório é um registro vivo do meu aprendizado em TI. </p> 
+> <p align ="center"> Aqui você encontrará documentações que escrevi sobre problemas reais, soluções aplicadas, boas práticas e estudos organizados — da forma como um técnico de TI faz no dia a dia. </p>
 
-> 🇺🇸 This repository is a living record of my IT learning journey.  
-> Here you'll find documentation I wrote about real-world issues, applied solutions, best practices and organized studies — the way an IT technician does it day to day.
+> <p align ="center"> 🇺🇸 This repository is a living record of my IT learning journey. </p>  
+> <p align ="center"> Here you'll find documentation I wrote about real-world issues, applied solutions, best practices and organized studies — the way an IT technician does it day to day. </p>
 
 ---
 
-## 📂 Estrutura do Repositório | Repository Structure
+<h2 align="center"> 📂 Estrutura do Repositório | Repository Structure </p>
+
+
+---
+>
 
 ```
 📁 TI/
@@ -47,7 +51,8 @@
 
 ---
 
-## 📖 Conteúdo Disponível | Available Content
+<h2 align="center"> 📖 Conteúdo Disponível | Available Content </p>
 
-### 🔧 [Troubleshooting — Base de Conhecimento](./troubleshooting/troubleshooting.md)
+ <h3 align="center"> 
+    <a href="./troubleshooting/troubleshooting.md"> 🪛 Troubleshooting - Base de Conhecimento </a>
 
