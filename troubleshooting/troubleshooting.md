@@ -93,7 +93,7 @@ Cabo desconectado, IP mal configurado, pilha de rede corrompida ou DNS incorreto
 
 1. Verifique se o cabo de rede está bem encaixado; observe a luz de link na placa de rede
 2. Execute no CMD: *`ipconfig /release`* e depois *`ipconfig /renew`* para renovar o IP
-3. Teste a conectividade: *`ping 8`* — se funcionar, o problema é de DNS, não de roteamento
+3. Teste a conectividade: *`ping 8.8.8.8`* — se funcionar, o problema é de DNS, não de roteamento
 4. Execute: *`netsh winsock reset`* e reinicie o computador
 5. Se for Wi-Fi: "esqueça" a rede e reconecte com a senha correta
 6. Verifique se o driver da placa de rede está desatualizado no *Gerenciador de Dispositivos*
@@ -512,7 +512,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 </div>
 
-# 📋 Modelo de documentação
+<h1 align="center"> 📋 Modelo de documentação </h1>
 
 ---
 
@@ -538,7 +538,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 ---
 
-# 💡 Boas práticas de documentação
+<h1 align="center"> 💡 Boas práticas de documentação </h1>
  
 ## 📝 Como escrever uma documentação voltada para solução de problemas
 
