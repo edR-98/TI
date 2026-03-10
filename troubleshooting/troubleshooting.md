@@ -1,4 +1,4 @@
-# 🖥️  Base de Conhecimento / Documentação
+# 🖥️  Minha Base de Conhecimento / Documentação
 
 Criei esse arquivo em Markdown com a intenção de demonstrar meus conhecimentos em TI e exemplificar como desenvolver uma documentação simples, clara e de fácil entendimento. Essas qualidades são muito úteis não apenas em ambientes corporativos, mas também pessoalmente ou outros que venham ter os mesmos problemas.
 
@@ -8,13 +8,13 @@ Criei esse arquivo em Markdown com a intenção de demonstrar meus conhecimentos
 - [Modelo de documentação](#-modelo-de-documentação);
 - [Boas práticas de documentação](#-boas-práticas-de-documentação):
     - [Como escrever uma documentação voltada para solução de problemas](#-como-escrever-uma-documentação-voltada-para-solução-de-problemas).
-- [Boas práticas para ordem de serviço ou chamados](#-boas-práticas-para-ordem-de-serviço-ou-chamados).
+- [Boas práticas para ordem de serviço ou chamados](#-boas-práticas-para-ordem-de-serviço-ou-chamados-tickets).
   
 ---
 
 ## 📋 Índice de Problemas
 
-📌 Problemas comuns e soluções do dia a dia de um usuário comum ou que podem ocorrer em um ambiente corporativo. Do básico ao avançado, com possíveis causas, solução passo a passo e dicas de prevenção.
+📌 Problemas comuns e soluções do dia a dia de um usuário ou que podem ocorrer em um ambiente corporativo. Do básico aos mais "complicados", com possíveis causas, solução passo a passo e dicas de prevenção.
 >[!NOTE]
 > **Você pode clicar nos *links* na tabela abaixo para ir diretamente num problema específico.**
 
