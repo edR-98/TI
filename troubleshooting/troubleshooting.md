@@ -379,7 +379,7 @@ Configure uma ferramenta de monitoramento de rede (ex: *PRTG, Zabbix*); mantenha
 
 
 > [!WARNING]
-> ⚠️ **Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo.**
+> ⚠️ Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo.
 
 
 
@@ -516,9 +516,8 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 # 📋 Modelo de documentação
 
 
-
 > [!IMPORTANT]
-> **A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações.**
+> A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações.
 
 
 | Campo | Preencha com informações |
