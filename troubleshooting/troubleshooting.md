@@ -18,10 +18,8 @@
 
 <p align="center"> 📌  Problemas comuns e soluções do dia a dia de um usuário ou que podem ocorrer em um ambiente corporativo. Do básico aos mais "complicados", com possíveis causas, solução passo a passo e dicas de prevenção. </p>
 
-
 >[!NOTE]
 > Você pode clicar nos *links* abaixo se quiser ir num tópico específico.
-
 
 | # | Problema | Categoria | Gravidade |
 | --- | --- | --- | --- |
@@ -42,19 +40,11 @@
 
 ---
 
-
-
-
 <div align="center">
 
+## 01 — Computador não liga 
 
- ## 01 — Computador não liga 
-
-
-
->  🟡 **Gravidade: Média | 👤 Afetados: Usuário único | 🗂️ Categoria: Hardware / Energia**
-
-
+> 🟡 **Gravidade: Média | 👤 Afetados: Usuário único | 🗂️ Categoria: Hardware / Energia**
 
 |🚨 Problema|
 |:-------------:|  
@@ -69,14 +59,13 @@ Cabo de energia solto, tomada com defeito, fonte de alimentação (PSU) com falh
 |🛠️ Solução|
 |---------|
 
+1. Verifique se o cabo de energia está firmemente conectado em ambas as extremidades
+2. Teste a tomada com outro dispositivo (luminária, carregador de celular)
+3. Substitua o cabo de energia por um que esteja funcionando
+4. Ouça os *bipes* de POST — bipes múltiplos indicam códigos de erro de hardware
+5. Se não houver nenhuma resposta, inspecione a PSU com um multímetro ou troque por uma reserva
+6. Escale para inspeção de hardware caso a PSU seja confirmada como defeituosa
 
-
- Verifique se o cabo de energia está firmemente conectado em ambas as extremidades.<br>
- Teste a tomada com outro dispositivo (luminária, carregador de celular).<br>
- Substitua o cabo de energia por um que esteja funcionando.<br>
- Ouça os *bipes* de POST — bipes múltiplos indicam códigos de erro de hardware.<br>
- Se não houver nenhuma resposta, inspecione a PSU com um multímetro ou troque por uma reserva.<br>
- Escale para inspeção de hardware caso a PSU seja confirmada como defeituosa.
 
 |🏷️ Prevenções|
 |-----------|
@@ -102,12 +91,13 @@ Cabo desconectado, IP mal configurado, pilha de rede corrompida ou DNS incorreto
 |🛠️ Solução|
 |----------|
 
- Verifique se o cabo de rede está bem encaixado; observe a luz de link na placa de rede; <br>
- Execute no CMD: *`ipconfig /release`* e depois *`ipconfig /renew`* para renovar o IP; <br>
- Teste a conectividade: *`ping 8`* — se funcionar, o problema é de DNS, não de roteamento; <br>
- Execute: *`netsh winsock reset`* e reinicie o computador; <br>
- Se for Wi-Fi: "esqueça" a rede e reconecte com a senha correta; <br>
- Verifique se o driver da placa de rede está desatualizado no *Gerenciador de Dispositivos*.
+1. Verifique se o cabo de rede está bem encaixado; observe a luz de link na placa de rede
+2. Execute no CMD: *`ipconfig /release`* e depois *`ipconfig /renew`* para renovar o IP
+3. Teste a conectividade: *`ping 8`* — se funcionar, o problema é de DNS, não de roteamento
+4. Execute: *`netsh winsock reset`* e reinicie o computador
+5. Se for Wi-Fi: "esqueça" a rede e reconecte com a senha correta
+6. Verifique se o driver da placa de rede está desatualizado no *Gerenciador de Dispositivos*
+
 
 |🏷️ Prevenções|
 |------|
@@ -133,12 +123,13 @@ Serviço *Spooler* travado, trabalhos pendentes bloqueando a fila, impressora pa
 | 🛠️ Solução |
 |--------|
 
- Abra Serviços (*`services.msc`*) e reinicie o serviço *'Spooler de Impressão'*;<br>
- Limpe a fila de impressão: navegue até *`C:\Windows\System32\spool\PRINTERS`* e delete todos os arquivos;<br>
- Verifique se a impressora correta está definida como padrão;<br>
- Clique com o botão direito na impressora >  Ver o que está imprimindo  >  Cancelar todos os documentos ; <br>
- Desinstale e reinstale o driver da impressora pelo site do fabricante.
- Para impressoras de rede, confirme se o IP da impressora não mudou.
+1. Abra Serviços (*`services.msc`*) e reinicie o serviço *'Spooler de Impressão'*
+2. Limpe a fila de impressão: navegue até *`C:\Windows\System32\spool\PRINTERS`* e delete todos os arquivos
+3. Verifique se a impressora correta está definida como padrão
+4. Clique com o botão direito na impressora >  Ver o que está imprimindo  >  Cancelar todos os documentos 
+5. Desinstale e reinstale o driver da impressora pelo site do fabricante.
+ Para impressoras de rede, confirme se o IP da impressora não mudou
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -164,11 +155,12 @@ Usuário esqueceu as credenciais; nenhuma dica de senha foi configurada.
 |🛠️ Solução|
 |----------|
 
- Se houver outra conta de administrador local: faça login e redefina via CMD: *`net user [usuario] [novasenha]`*; <br>
- No Windows 10/11: use as perguntas de segurança na tela de login (se configuradas); <br>
- Inicialize pela mídia de instalação do Windows > *Reparar o computador*  >  *Prompt de Comando*; <br>
- Use o disco de redefinição de senha, se criado anteriormente; <br>
- Para contas de domínio: contate o administrador do *Active Directory*  — nunca tente  *bypass local*.
+1. Se houver outra conta de administrador local: faça login e redefina via CMD: *`net user [usuario] [novasenha]`*
+2. No Windows 10/11: use as perguntas de segurança na tela de login (se configuradas)
+3. Inicialize pela mídia de instalação do Windows > *Reparar o computador*  >  *Prompt de Comando*
+4. Use o disco de redefinição de senha, se criado anteriormente
+5. Para contas de domínio: contate o administrador do *Active Directory*  — nunca tente  *bypass local*
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -194,12 +186,13 @@ Alto uso de CPU/RAM, disco cheio, muitos programas ativos na inicialização, ma
 |🛠️ Solução|
 |----------|
 
- Abra o  *Gerenciador de Tarefas* (*`Ctrl+Shift+Esc`*)  e identifique os processos com alto uso de recursos; <br>
- Desative programas desnecessários na inicialização pela aba *'Inicializar'* do *Gerenciador de Tarefas*; <br>
- Execute a  *Limpeza de Disco*  e exclua arquivos temporários e esvazie a *Lixeira*; <br>
- Verifique o uso do disco — se estiver acima de 90%, libere espaço ou recomende upgrade de armazenamento; <br>
- Execute uma varredura completa de malware com o  *Windows Defender*  ou  *Malwarebytes*; <br>
- Se a RAM estiver consistentemente acima de 90%, recomende upgrade de memória.
+1. Abra o  *Gerenciador de Tarefas* (*`Ctrl+Shift+Esc`*)  e identifique os processos com alto uso de recursos
+2. Desative programas desnecessários na inicialização pela aba *'Inicializar'* do *Gerenciador de Tarefas*
+3. Execute a  *Limpeza de Disco*  e exclua arquivos temporários e esvazie a *Lixeira*
+4. Verifique o uso do disco — se estiver acima de 90%, libere espaço ou recomende upgrade de armazenamento
+5. Execute uma varredura completa de malware com o  *Windows Defender*  ou  *Malwarebytes*
+6. Se a RAM estiver consistentemente acima de 90%, recomende upgrade de memória
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -207,8 +200,6 @@ Alto uso de CPU/RAM, disco cheio, muitos programas ativos na inicialização, ma
 Agende manutenção mensal; aplique políticas de uso de disco; execute varreduras regulares de antivírus.
 
 ---
-
-
 
 ## 06 — *Blue Screen of Death* (BSOD)
 
@@ -227,14 +218,15 @@ Conflito de driver, RAM com falha, arquivos de sistema corrompidos ou superaquec
 |🛠️ Solução|
 |----------|
 
- Anote o código de erro exibido no BSOD (ex: *`KERNEL_SECURITY_CHECK_FAILURE`*); <br>
- Inicialize no Modo Seguro: segure *`Shift`* >  *Reiniciar*  >  *Solucionar Problemas*  >  *Opções Avançadas*  >  *Config. de Inicialização*; <br>
- Execute no CMD como administrador: *`sfc /scannow`* para reparar arquivos de sistema; <br>
- Execute: *`chkdsk /f /r`* para verificar a integridade do disco (requer reinicialização); <br>
- Abra o  *Visualizador de Eventos* >  *Logs do Windows* >  *Sistema*  para identificar o componente com falha; <br>
- Reverta drivers instalados recentemente via *Gerenciador de Dispositivos*; <br>
- Execute o  *Diagnóstico de Memória do Windows*  para testar a integridade da RAM; <br>
- Se recorrente, suspeite de falha de hardware — escale para inspeção aprofundada.
+1. Anote o código de erro exibido no BSOD (ex: *`KERNEL_SECURITY_CHECK_FAILURE`*)
+2. Inicialize no Modo Seguro: segure *`Shift`* >  *Reiniciar*  >  *Solucionar Problemas*  >  *Opções Avançadas*  >  *Config. de Inicialização*
+3. Execute no CMD como administrador: *`sfc /scannow`* para reparar arquivos de sistema
+4. Execute: *`chkdsk /f /r`* para verificar a integridade do disco (requer reinicialização)
+5. Abra o  *Visualizador de Eventos* >  *Logs do Windows* >  *Sistema*  para identificar o componente com falha
+6. Reverta drivers instalados recentemente via *Gerenciador de Dispositivos*
+7. Execute o  *Diagnóstico de Memória do Windows*  para testar a integridade da RAM
+8. Se recorrente, suspeite de falha de hardware — escale para inspeção aprofundada
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -260,13 +252,14 @@ Conta *AD* expirada/bloqueada, máquina fora de sincronia com o domínio ou cred
 |🛠️ Solução|
 |---------|
 
- Abra *Usuários* e *Computadores do Active Directory (ADUC)* no controlador de domínio; <br>
- Pesquise a conta do usuário — verifique se está bloqueada ou desabilitada; <br>
- Desbloqueie a conta e redefina a senha se necessário; <br>
- Se for erro de relação de confiança: faça login com uma conta de administrador local; <br>
- Execute no *PowerShell: `Test-ComputerSecureChannel -Repair -Credential (Get-Credential)`*; <br>
- Se o reparo falhar: remova a máquina do domínio e a adicione novamente; <br>
- Verifique se o DNS da máquina aponta para o controlador de domínio.
+1. Abra *Usuários* e *Computadores do Active Directory (ADUC)* no controlador de domínio
+2. Pesquise a conta do usuário — verifique se está bloqueada ou desabilitada
+3. Desbloqueie a conta e redefina a senha se necessário
+4. Se for erro de relação de confiança: faça login com uma conta de administrador local
+5. Execute no *PowerShell: `Test-ComputerSecureChannel -Repair -Credential (Get-Credential)`*
+6. Se o reparo falhar: remova a máquina do domínio e a adicione novamente
+7. Verifique se o DNS da máquina aponta para o controlador de domínio
+
 
 |🏷️ Prevenções|
 |---------|
@@ -292,13 +285,14 @@ Perfil do Outlook corrompido, configurações de servidor incorretas, caixa de e
 |🛠️ Solução|
 |----------|
 
- Verifique a barra de status na parte inferior do Outlook — confirme que não diz *'Trabalhando Offline'*; <br>
- Clique em *Enviar/Receber Todas as Pastas (`F9`)* para forçar a sincronização; <br>
- Verifique as configurações da conta (*Arquivo* > *Configurações de Conta*) para confirmar os dados do servidor; <br>
- Execute a ferramenta *Microsoft Support and Recovery Assistant (SaRA)* para diagnóstico automatizado; <br>
- Crie um novo perfil do Outlook: *Painel de Controle* > *Email* > *Mostrar Perfis* > *Adicionar*. <br>
- Verifique o tamanho da caixa de entrada — arquive e-mails antigos se estiver no limite; <br>
- Verifique se a conta não foi bloqueada por suspeita de envio de spam.
+1. Verifique a barra de status na parte inferior do Outlook — confirme que não diz *'Trabalhando Offline'*
+2. Clique em *Enviar/Receber Todas as Pastas (`F9`)* para forçar a sincronização
+3. Verifique as configurações da conta (*Arquivo* > *Configurações de Conta*) para confirmar os dados do servidor
+4. Execute a ferramenta *Microsoft Support and Recovery Assistant (SaRA)* para diagnóstico automatizado
+5. Crie um novo perfil do Outlook: *Painel de Controle* > *Email* > *Mostrar Perfis* > *Adicionar*
+6. Verifique o tamanho da caixa de entrada — arquive e-mails antigos se estiver no limite
+7. Verifique se a conta não foi bloqueada por suspeita de envio de spam
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -324,13 +318,14 @@ Instalação corrompida, dependências ausentes (Visual C++, .NET) ou problemas 
 |🛠️ Solução|
 |----------|
 
- Verifique o *Visualizador de Eventos* > *Logs do Windows* > *Aplicativos* para o erro e módulo com falha; <br>
- Tente executar o aplicativo como Administrador (*clique direito > Executar como administrador*); <br>
- Desinstale e faça uma reinstalação limpa do aplicativo; <br>
- Instale ou repare os *Pacotes Redistribuíveis do Visual C++* e o *.NET Framework* da Microsoft; <br>
- Verifique se o antivírus está bloqueando o aplicativo — adicione uma exclusão temporariamente para testar; <br>
- Verifique as permissões do usuário na pasta de instalação do aplicativo; <br>
- Teste com um perfil de usuário diferente para descartar corrupção de perfil.
+1. Verifique o *Visualizador de Eventos* > *Logs do Windows* > *Aplicativos* para o erro e módulo com falha
+2. Tente executar o aplicativo como Administrador (*clique direito > Executar como administrador*)
+3. Desinstale e faça uma reinstalação limpa do aplicativo
+4. Instale ou repare os *Pacotes Redistribuíveis do Visual C++* e o *.NET Framework* da Microsoft
+5. Verifique se o antivírus está bloqueando o aplicativo — adicione uma exclusão temporariamente para testar
+6. Verifique as permissões do usuário na pasta de instalação do aplicativo
+7. Teste com um perfil de usuário diferente para descartar corrupção de perfil
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -356,13 +351,14 @@ Falha no roteador/modem, queda do provedor (ISP), esgotamento do escopo DHCP ou 
 |🛠️ Solução|
 |----------|
 
- Verifique as luzes indicadoras do roteador/modem (sem luz WAN = problema no provedor); <br>
- Reinicie os equipamentos de rede em ordem: modem primeiro, depois roteador, depois switches (aguarde 30s cada); <br>
- Acesse o painel de administração do roteador e verifique o IP WAN — se em branco, o provedor não está fornecendo endereço; <br>
- Contate o provedor de internet para verificar se há quedas na área; <br>
- Se o IP WAN estiver presente mas sem internet: verifique as configurações de DNS no roteador (tente `8.8.8.8`); <br>
- Verifique o escopo DHCP no roteador — se todos os IPs estiverem em uso, aumente o intervalo do pool; <br>
- Documente a duração da interrupção e os usuários afetados para o relatório de incidente.
+1. Verifique as luzes indicadoras do roteador/modem (sem luz WAN = problema no provedor)
+2. Reinicie os equipamentos de rede em ordem: modem primeiro, depois roteador, depois switches (aguarde 30s cada)
+3. Acesse o painel de administração do roteador e verifique o IP WAN — se em branco, o provedor não está fornecendo endereço
+4. Contate o provedor de internet para verificar se há quedas na área
+5. Se o IP WAN estiver presente mas sem internet: verifique as configurações de DNS no roteador (tente `8.8.8.8`)
+6. Verifique o escopo DHCP no roteador — se todos os IPs estiverem em uso, aumente o intervalo do pool
+7. Documente a duração da interrupção e os usuários afetados para o relatório de incidente
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -371,19 +367,16 @@ Configure uma ferramenta de monitoramento de rede (ex: *PRTG, Zabbix*); mantenha
 
 ---
 
-
 ## 11 — Infecção por Ransomware
 
 > 🔴 **Gravidade: Crítica | 👥 Afetados: Um ou múltiplos usuários / Rede inteira | 🗂️ Categoria: Segurança / Malware**
 
----
-
-
+</div>
 
 > [!WARNING]
 > Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo.
 
-
+<div align="center">
 
 |🚨 Problema|
 |-----------|
@@ -398,14 +391,15 @@ E-mail de phishing com anexo malicioso, download *drive-by* ou exploração de v
 |🛠️ Solução|
 |---------|
 
- **IMEDIATAMENTE** isole a máquina: desconecte o cabo de rede e desative o Wi-Fi; <br>
- **NÃO** desligue a máquina ainda — documente todos os processos em execução via *Gerenciador de Tarefas*; <br>
- Alerte a equipe de Segurança de TI e a gerência conforme o *Plano de Resposta a Incidentes*; <br>
- Identifique o tipo de ransomware usando o site ID Ransomware (*https://id-ransomware.malwarehunterteam.com*); <br>
- Verifique se há um descriptografador gratuito disponível em *'NoMoreRansom.org'* antes de considerar qualquer pagamento; <br>
- Restaure os dados afetados do backup limpo mais recente; <br>
- Formate e reinstale o sistema operacional na máquina infectada antes de reconectá-la à rede; <br>
- Realize uma revisão pós-incidente para identificar o vetor de ataque e aplicar correções.
+1. **IMEDIATAMENTE** isole a máquina: desconecte o cabo de rede e desative o Wi-Fi
+2. **NÃO** desligue a máquina ainda — documente todos os processos em execução via *Gerenciador de Tarefas*
+3. Alerte a equipe de Segurança de TI e a gerência conforme o *Plano de Resposta a Incidentes*
+4. Identifique o tipo de ransomware usando o site ID Ransomware (*https://id-ransomware.malwarehunterteam.com*)
+5. Verifique se há um descriptografador gratuito disponível em *'NoMoreRansom.org'* antes de considerar qualquer pagamento
+6. Restaure os dados afetados do backup limpo mais recente
+7. Formate e reinstale o sistema operacional na máquina infectada antes de reconectá-la à rede
+8. Realize uma revisão pós-incidente para identificar o vetor de ataque e aplicar correções
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -431,13 +425,14 @@ Desgaste físico, setores defeituosos, corrupção de firmware ou defeito de fab
 |🛠️ Solução|
 |----------|
 
- Execute o **CrystalDiskInfo** para verificar o status *S.M.A.R.T.* — se *'Atenção'* ou *'Ruim'*, inicie a recuperação de dados imediatamente; <br>
- Se ainda inicializável: faça backup de todos os dados críticos do usuário em um HD externo imediatamente; <br>
- Execute no CMD elevado: *`chkdsk /f /r`* (requer reinicialização); <br>
- Se o sistema não inicializar: use um pendrive Linux bootável para acessar e recuperar arquivos; <br>
- Use **Recuva** ou **TestDisk** para recuperação de arquivos excluídos, se necessário; <br>
- Substitua o disco com falha por um novo de capacidade igual ou maior; <br>
- Restaure o sistema operacional e os dados do backup no novo disco.
+1. Execute o **CrystalDiskInfo** para verificar o status *S.M.A.R.T.* — se *'Atenção'* ou *'Ruim'*, inicie a recuperação de dados imediatamente
+2. Se ainda inicializável: faça backup de todos os dados críticos do usuário em um HD externo imediatamente
+3. Execute no CMD elevado: *`chkdsk /f /r`* (requer reinicialização)
+4. Se o sistema não inicializar: use um pendrive Linux bootável para acessar e recuperar arquivos
+5. Use **Recuva** ou **TestDisk** para recuperação de arquivos excluídos, se necessário
+6. Substitua o disco com falha por um novo de capacidade igual ou maior
+7. Restaure o sistema operacional e os dados do backup no novo disco
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -463,14 +458,15 @@ Login/senha incorretos, certificado expirado, firewall bloqueando portas de VPN 
 |🛠️ Solução|
 |----------|
 
- Verifique se as credenciais de VPN do usuário estão corretas e se a conta não expirou; <br>
- Certifique-se de que o cliente VPN está atualizado — baixe a versão mais recente com a TI; <br>
- Verifique se as portas necessárias estão abertas: *`UDP 1194`* (OpenVPN), *`UDP 500/4500`* (IPSec/IKEv2), *`TCP 443`* (SSL VPN); <br>
- Alterne o protocolo VPN entre TCP e UDP nas configurações do cliente; <br>
- Desabilite temporariamente o *Firewall do Windows* e o antivírus para testar se estão bloqueando a conexão; <br>
- Verifique os logs do servidor VPN para códigos de erro específicos; <br>
- Se autenticação por certificado: verifique se o certificado não expirou e está corretamente instalado; <br>
- Teste com uma rede diferente (ex: roteador 4G) para descartar bloqueio do provedor de internet.
+1. Verifique se as credenciais de VPN do usuário estão corretas e se a conta não expirou
+2. Certifique-se de que o cliente VPN está atualizado — baixe a versão mais recente com a TI
+3. Verifique se as portas necessárias estão abertas: *`UDP 1194`* (OpenVPN), *`UDP 500/4500`* (IPSec/IKEv2), *`TCP 443`* (SSL VPN)
+4. Alterne o protocolo VPN entre TCP e UDP nas configurações do cliente
+5. Desabilite temporariamente o *Firewall do Windows* e o antivírus para testar se estão bloqueando a conexão
+6. Verifique os logs do servidor VPN para códigos de erro específicos
+7. Se autenticação por certificado: verifique se o certificado não expirou e está corretamente instalado
+8. Teste com uma rede diferente (ex: roteador 4G) para descartar bloqueio do provedor de internet
+
 
 |🏷️ Prevenções|
 |-------------|
@@ -496,33 +492,34 @@ Esgotamento de recursos (CPU/RAM/disco), serviço com falha, hardware defeituoso
 |🛠️ Solução|
 |----------|
 
- Faça ping no servidor para verificar se está acessível: *`ping [ip-do-servidor] -t`*; <br>
- Tente acesso remoto via *RDP (Windows) ou SSH (Linux)*; <br>
- Se inacessível: use ferramentas de gerenciamento fora de banda (*iDRAC* para Dell, *iLO* para HP); <br>
- Verifique a utilização de recursos: *Gerenciador de Tarefas* (Windows) ou *`top`/`htop`* (Linux); <br>
- Se um serviço específico falhou: reinicie via *`services.msc`* ou: *`systemctl restart [servico]`*; <br>
- Revise os logs do sistema: *Visualizador de Eventos* (Windows) ou *`/var/log/syslog`* (Linux) para identificar a causa; <br>
- Se o disco estiver cheio: identifique arquivos grandes e arquive ou exclua conforme apropriado; <br>
- Se suspeitar de falha de hardware: escale imediatamente para a equipe de infraestrutura sênior; <br>
- Comunique o status da interrupção aos usuários afetados e à gerência.
+1. Faça ping no servidor para verificar se está acessível: *`ping [ip-do-servidor] -t`*
+2. Tente acesso remoto via *RDP (Windows) ou SSH (Linux)*
+3. Se inacessível: use ferramentas de gerenciamento fora de banda (*iDRAC* para Dell, *iLO* para HP)
+4. Verifique a utilização de recursos: *Gerenciador de Tarefas* (Windows) ou *`top`/`htop`* (Linux)
+5. Se um serviço específico falhou: reinicie via *`services.msc`* ou: *`systemctl restart [servico]`*
+6. Revise os logs do sistema: *Visualizador de Eventos* (Windows) ou *`/var/log/syslog`* (Linux) para identificar a causa
+7. Se o disco estiver cheio: identifique arquivos grandes e arquive ou exclua conforme apropriado
+8. Se suspeitar de falha de hardware: escale imediatamente para a equipe de infraestrutura sênior
+9. Comunique o status da interrupção aos usuários afetados e à gerência
+
 
 |🏷️ Prevenções|
 |-------------|
 
 Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janelas de manutenção regulares; mantenha runbooks documentados.
 
-
-
 ---
+
+</div>
 
 # 📋 Modelo de documentação
 
 ---
 
-
 > [!IMPORTANT]
 > A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações.
 
+<div align="center">
 
 | Campo | Preencha com informações |
 | --- | --- |
@@ -537,28 +534,26 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 | **Resolvido por** |  |
 | **Data** |  |
 
+</div>
+
 ---
 
 # 💡 Boas práticas de documentação
  
 ## 📝 Como escrever uma documentação voltada para solução de problemas
 
- Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação;<br>
- Inclua mensagens de erro e códigos de erro exatos sempre que disponíveis;<br>
- Documente o que **NÃO** funcionou, não apenas o que funcionou — isso economiza tempo para a próxima pessoa;<br>
- Adicione capturas de tela sempre que possível (anexe ao chamado ou insira diretamente);<br>
- Revise e atualize os artigos quando uma solução melhor for encontrada; <br>
- Adicione palavras-chave relevantes em cada artigo para facilitar a busca.
+1. Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação;<br>
+2. Inclua mensagens de erro e códigos de erro exatos sempre que disponíveis;<br>
+3. Documente o que **NÃO** funcionou, não apenas o que funcionou — isso economiza tempo para a próxima pessoa;<br>
+4. Adicione capturas de tela sempre que possível (anexe ao chamado ou insira diretamente);<br>
+ 5. Revise e atualize os artigos quando uma solução melhor for encontrada; <br>
+ 6. Adicione palavras-chave relevantes em cada artigo para facilitar a busca.
 
 ## 💎 Boas práticas para ordem de serviço ou chamados (tickets)
 
-  Sempre colete antes de começar: nome do usuário, nome da máquina, versão do SO e mensagem de erro exata; <br>
- Categorize os chamados corretamente desde o início — ajuda na análise de tendências; <br>
- Escale com contexto completo: o que você tentou, o que aconteceu, logs relevantes; <br>
- Feche chamados somente quando o usuário confirmar que o problema foi resolvido. <br>
-
-
+1. Sempre colete antes de começar: nome do usuário, nome da máquina, versão do SO e mensagem de erro exata; <br>
+2. Categorize os chamados corretamente desde o início — ajuda na análise de tendências; <br>
+3. Escale com contexto completo: o que você tentou, o que aconteceu, logs relevantes; <br>
+4. Feche chamados somente quando o usuário confirmar que o problema foi resolvido. <br>
 
 ---
-
-</div>
