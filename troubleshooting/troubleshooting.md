@@ -376,6 +376,9 @@ Configure uma ferramenta de monitoramento de rede (ex: *PRTG, Zabbix*); mantenha
 
 > 🔴 **Gravidade: Crítica | 👥 Afetados: Um ou múltiplos usuários / Rede inteira | 🗂️ Categoria: Segurança / Malware**
 
+---
+
+
 
 > [!WARNING]
 > Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo.
@@ -513,6 +516,8 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 ---
 
 # 📋 Modelo de documentação
+
+---
 
 
 > [!IMPORTANT]
