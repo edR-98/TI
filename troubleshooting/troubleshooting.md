@@ -1,6 +1,6 @@
 <h1 align="center"> 🖥️  Minha Base de Conhecimento / Documentação </h1>
 
-<p align="center"> Criei esse arquivo em Markdown com a intenção de demonstrar meus conhecimentos em TI e exemplificar como desenvolver uma documentação simples, clara e de fácil entendimento. Essas qualidades são muito úteis não apenas em ambientes corporativos, mas também pessoalmente ou outros que venham ter os mesmos problemas. </p>
+<p align="center"> Criei esse arquivo em Markdown/HTML com a intenção de demonstrar meus conhecimentos em TI e exemplificar como desenvolver uma documentação simples, clara e de fácil entendimento. Essas qualidades são muito úteis não apenas em ambientes corporativos, mas também pessoalmente ou outros que venham ter os mesmos problemas. </p>
 
 <h2 align="center">  Tabela de Conteúdos </h2>
 
@@ -18,8 +18,7 @@
 
 <p align="center"> 📌  Problemas comuns e soluções do dia a dia de um usuário ou que podem ocorrer em um ambiente corporativo. Do básico aos mais "complicados", com possíveis causas, solução passo a passo e dicas de prevenção. </p>
 
-> [!NOTE] 
-> Você pode clicar nos *links* na tabela abaixo para ir diretamente num problema específico.
+> [!NOTE] > Você pode clicar nos *links* na tabela abaixo para ir diretamente num problema específico.
 
 
 
@@ -377,8 +376,7 @@ Configure uma ferramenta de monitoramento de rede (ex: *PRTG, Zabbix*); mantenha
 
 > 🔴 **Gravidade: Crítica | 👥 Afetados: Um ou múltiplos usuários / Rede inteira | 🗂️ Categoria: Segurança / Malware**
 
-> [!WARNING]
-> ⚠️ **ATENÇÃO:** Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo. 
+> [!WARNING] ⚠️ **ATENÇÃO:** Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo. 
 
 |🚨 Problema|
 |-----------|
@@ -512,8 +510,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 # 📋 Modelo de documentação
 
->  [!IMPORTANT]
->  A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações. 
+>  [!IMPORTANT]  **A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações.** 
 
 | Campo | Preencha com informações |
 | --- | --- |
