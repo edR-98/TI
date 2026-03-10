@@ -25,11 +25,11 @@
 
 ---
 
-<h2 align="center"> 📂 Estrutura do Repositório | Repository Structure </p>
+<h2 align="center"> 📂 Estrutura do Repositório | Repository Structure </h2>
 
 
 ---
->
+
 
 ```
 📁 TI/
