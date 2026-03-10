@@ -1,10 +1,10 @@
 
 
-<h1 align="center">🖥️ Repositório de TI — Eduardo</h1>
+<h1 align="center">🖥️ Meu repositório de TI — Eduardo</h1>
 
 <p align="center">
-  <em>Documentação prática de tudo que aprendo, resolvo e aplico na área de Tecnologia da Informação.</em><br>
-  <em>Practical documentation of everything I learn, solve and apply in Information Technology.</em>
+  <em>Documentação prática de tudo que já aprendi, aprendo, resolvo e aplico na área de Tecnologia da Informação.</em><br>
+  <em>Practical documentation of everything I learned, still learn, solve and apply in Information Technology.</em>
 </p>
 
 <p align="center">
