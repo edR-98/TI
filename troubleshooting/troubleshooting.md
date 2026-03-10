@@ -1,6 +1,6 @@
 <h1 align="center"> 🖥️  Minha Base de Conhecimento / Documentação </h1>
 
-Criei esse arquivo em Markdown com a intenção de demonstrar meus conhecimentos em TI e exemplificar como desenvolver uma documentação simples, clara e de fácil entendimento. Essas qualidades são muito úteis não apenas em ambientes corporativos, mas também pessoalmente ou outros que venham ter os mesmos problemas.
+<p align="center"> Criei esse arquivo em Markdown com a intenção de demonstrar meus conhecimentos em TI e exemplificar como desenvolver uma documentação simples, clara e de fácil entendimento. Essas qualidades são muito úteis não apenas em ambientes corporativos, mas também pessoalmente ou outros que venham ter os mesmos problemas. </p>
 
 <h2 align="center">  Tabela de Conteúdos </h2>
 
@@ -16,9 +16,10 @@ Criei esse arquivo em Markdown com a intenção de demonstrar meus conhecimentos
 
 <h2 align="center"> 📋 Índice de Problemas </h2>
 
-📌 Problemas comuns e soluções do dia a dia de um usuário ou que podem ocorrer em um ambiente corporativo. Do básico aos mais "complicados", com possíveis causas, solução passo a passo e dicas de prevenção.
-> <p align="center">[!NOTE] </p>
-> <p align="center"> <strong> Você pode clicar nos *links* na tabela abaixo para ir diretamente num problema específico. </p> </strong>
+<p align="center"> 📌  Problemas comuns e soluções do dia a dia de um usuário ou que podem ocorrer em um ambiente corporativo. Do básico aos mais "complicados", com possíveis causas, solução passo a passo e dicas de prevenção. </p>
+
+> [!NOTE] 
+> Você pode clicar nos *links* na tabela abaixo para ir diretamente num problema específico.
 
 
 
@@ -71,7 +72,7 @@ Cabo de energia solto, tomada com defeito, fonte de alimentação (PSU) com falh
 
 
 
- > Verifique se o cabo de energia está firmemente conectado em ambas as extremidades.<br>
+ Verifique se o cabo de energia está firmemente conectado em ambas as extremidades.<br>
  Teste a tomada com outro dispositivo (luminária, carregador de celular).<br>
  Substitua o cabo de energia por um que esteja funcionando.<br>
  Ouça os *bipes* de POST — bipes múltiplos indicam códigos de erro de hardware.<br>
@@ -133,7 +134,7 @@ Serviço *Spooler* travado, trabalhos pendentes bloqueando a fila, impressora pa
 | 🛠️ Solução |
 |--------|
 
- > Abra Serviços (*`services.msc`*) e reinicie o serviço *'Spooler de Impressão'*;<br>
+ Abra Serviços (*`services.msc`*) e reinicie o serviço *'Spooler de Impressão'*;<br>
  Limpe a fila de impressão: navegue até *`C:\Windows\System32\spool\PRINTERS`* e delete todos os arquivos;<br>
  Verifique se a impressora correta está definida como padrão;<br>
  Clique com o botão direito na impressora >  Ver o que está imprimindo  >  Cancelar todos os documentos ; <br>
@@ -164,7 +165,7 @@ Usuário esqueceu as credenciais; nenhuma dica de senha foi configurada.
 |🛠️ Solução|
 |----------|
 
- > Se houver outra conta de administrador local: faça login e redefina via CMD: *`net user [usuario] [novasenha]`*; <br>
+ Se houver outra conta de administrador local: faça login e redefina via CMD: *`net user [usuario] [novasenha]`*; <br>
  No Windows 10/11: use as perguntas de segurança na tela de login (se configuradas); <br>
  Inicialize pela mídia de instalação do Windows > *Reparar o computador*  >  *Prompt de Comando*; <br>
  Use o disco de redefinição de senha, se criado anteriormente; <br>
@@ -194,7 +195,7 @@ Alto uso de CPU/RAM, disco cheio, muitos programas ativos na inicialização, ma
 |🛠️ Solução|
 |----------|
 
- > Abra o  *Gerenciador de Tarefas* (*`Ctrl+Shift+Esc`*)  e identifique os processos com alto uso de recursos; <br>
+ Abra o  *Gerenciador de Tarefas* (*`Ctrl+Shift+Esc`*)  e identifique os processos com alto uso de recursos; <br>
  Desative programas desnecessários na inicialização pela aba *'Inicializar'* do *Gerenciador de Tarefas*; <br>
  Execute a  *Limpeza de Disco*  e exclua arquivos temporários e esvazie a *Lixeira*; <br>
  Verifique o uso do disco — se estiver acima de 90%, libere espaço ou recomende upgrade de armazenamento; <br>
@@ -227,7 +228,7 @@ Conflito de driver, RAM com falha, arquivos de sistema corrompidos ou superaquec
 |🛠️ Solução|
 |----------|
 
- > Anote o código de erro exibido no BSOD (ex: *`KERNEL_SECURITY_CHECK_FAILURE`*); <br>
+ Anote o código de erro exibido no BSOD (ex: *`KERNEL_SECURITY_CHECK_FAILURE`*); <br>
  Inicialize no Modo Seguro: segure *`Shift`* >  *Reiniciar*  >  *Solucionar Problemas*  >  *Opções Avançadas*  >  *Config. de Inicialização*; <br>
  Execute no CMD como administrador: *`sfc /scannow`* para reparar arquivos de sistema; <br>
  Execute: *`chkdsk /f /r`* para verificar a integridade do disco (requer reinicialização); <br>
@@ -260,7 +261,7 @@ Conta *AD* expirada/bloqueada, máquina fora de sincronia com o domínio ou cred
 |🛠️ Solução|
 |---------|
 
- > Abra *Usuários* e *Computadores do Active Directory (ADUC)* no controlador de domínio; <br>
+ Abra *Usuários* e *Computadores do Active Directory (ADUC)* no controlador de domínio; <br>
  Pesquise a conta do usuário — verifique se está bloqueada ou desabilitada; <br>
  Desbloqueie a conta e redefina a senha se necessário; <br>
  Se for erro de relação de confiança: faça login com uma conta de administrador local; <br>
@@ -292,7 +293,7 @@ Perfil do Outlook corrompido, configurações de servidor incorretas, caixa de e
 |🛠️ Solução|
 |----------|
 
- > Verifique a barra de status na parte inferior do Outlook — confirme que não diz *'Trabalhando Offline'*; <br>
+ Verifique a barra de status na parte inferior do Outlook — confirme que não diz *'Trabalhando Offline'*; <br>
  Clique em *Enviar/Receber Todas as Pastas (`F9`)* para forçar a sincronização; <br>
  Verifique as configurações da conta (*Arquivo* > *Configurações de Conta*) para confirmar os dados do servidor; <br>
  Execute a ferramenta *Microsoft Support and Recovery Assistant (SaRA)* para diagnóstico automatizado; <br>
@@ -324,7 +325,7 @@ Instalação corrompida, dependências ausentes (Visual C++, .NET) ou problemas 
 |🛠️ Solução|
 |----------|
 
- > Verifique o *Visualizador de Eventos* > *Logs do Windows* > *Aplicativos* para o erro e módulo com falha; <br>
+ Verifique o *Visualizador de Eventos* > *Logs do Windows* > *Aplicativos* para o erro e módulo com falha; <br>
  Tente executar o aplicativo como Administrador (*clique direito > Executar como administrador*); <br>
  Desinstale e faça uma reinstalação limpa do aplicativo; <br>
  Instale ou repare os *Pacotes Redistribuíveis do Visual C++* e o *.NET Framework* da Microsoft; <br>
@@ -356,7 +357,7 @@ Falha no roteador/modem, queda do provedor (ISP), esgotamento do escopo DHCP ou 
 |🛠️ Solução|
 |----------|
 
- > Verifique as luzes indicadoras do roteador/modem (sem luz WAN = problema no provedor); <br>
+ Verifique as luzes indicadoras do roteador/modem (sem luz WAN = problema no provedor); <br>
  Reinicie os equipamentos de rede em ordem: modem primeiro, depois roteador, depois switches (aguarde 30s cada); <br>
  Acesse o painel de administração do roteador e verifique o IP WAN — se em branco, o provedor não está fornecendo endereço; <br>
  Contate o provedor de internet para verificar se há quedas na área; <br>
@@ -376,8 +377,8 @@ Configure uma ferramenta de monitoramento de rede (ex: *PRTG, Zabbix*); mantenha
 
 > 🔴 **Gravidade: Crítica | 👥 Afetados: Um ou múltiplos usuários / Rede inteira | 🗂️ Categoria: Segurança / Malware**
 
-> <p align="center">[!WARNING] </p>
-> <p align="center">⚠️ **ATENÇÃO:** Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo. </p>
+> [!WARNING]
+> ⚠️ **ATENÇÃO:** Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo. 
 
 |🚨 Problema|
 |-----------|
@@ -392,7 +393,7 @@ E-mail de phishing com anexo malicioso, download *drive-by* ou exploração de v
 |🛠️ Solução|
 |---------|
 
- > **IMEDIATAMENTE** isole a máquina: desconecte o cabo de rede e desative o Wi-Fi; <br>
+ **IMEDIATAMENTE** isole a máquina: desconecte o cabo de rede e desative o Wi-Fi; <br>
  **NÃO** desligue a máquina ainda — documente todos os processos em execução via *Gerenciador de Tarefas*; <br>
  Alerte a equipe de Segurança de TI e a gerência conforme o *Plano de Resposta a Incidentes*; <br>
  Identifique o tipo de ransomware usando o site ID Ransomware (*https://id-ransomware.malwarehunterteam.com*); <br>
@@ -425,7 +426,7 @@ Desgaste físico, setores defeituosos, corrupção de firmware ou defeito de fab
 |🛠️ Solução|
 |----------|
 
- > Execute o **CrystalDiskInfo** para verificar o status *S.M.A.R.T.* — se *'Atenção'* ou *'Ruim'*, inicie a recuperação de dados imediatamente; <br>
+ Execute o **CrystalDiskInfo** para verificar o status *S.M.A.R.T.* — se *'Atenção'* ou *'Ruim'*, inicie a recuperação de dados imediatamente; <br>
  Se ainda inicializável: faça backup de todos os dados críticos do usuário em um HD externo imediatamente; <br>
  Execute no CMD elevado: *`chkdsk /f /r`* (requer reinicialização); <br>
  Se o sistema não inicializar: use um pendrive Linux bootável para acessar e recuperar arquivos; <br>
@@ -457,7 +458,7 @@ Login/senha incorretos, certificado expirado, firewall bloqueando portas de VPN 
 |🛠️ Solução|
 |----------|
 
- > Verifique se as credenciais de VPN do usuário estão corretas e se a conta não expirou; <br>
+ Verifique se as credenciais de VPN do usuário estão corretas e se a conta não expirou; <br>
  Certifique-se de que o cliente VPN está atualizado — baixe a versão mais recente com a TI; <br>
  Verifique se as portas necessárias estão abertas: *`UDP 1194`* (OpenVPN), *`UDP 500/4500`* (IPSec/IKEv2), *`TCP 443`* (SSL VPN); <br>
  Alterne o protocolo VPN entre TCP e UDP nas configurações do cliente; <br>
@@ -490,7 +491,7 @@ Esgotamento de recursos (CPU/RAM/disco), serviço com falha, hardware defeituoso
 |🛠️ Solução|
 |----------|
 
- > Faça ping no servidor para verificar se está acessível: *`ping [ip-do-servidor] -t`*; <br>
+ Faça ping no servidor para verificar se está acessível: *`ping [ip-do-servidor] -t`*; <br>
  Tente acesso remoto via *RDP (Windows) ou SSH (Linux)*; <br>
  Se inacessível: use ferramentas de gerenciamento fora de banda (*iDRAC* para Dell, *iLO* para HP); <br>
  Verifique a utilização de recursos: *Gerenciador de Tarefas* (Windows) ou *`top`/`htop`* (Linux); <br>
@@ -511,8 +512,8 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 # 📋 Modelo de documentação
 
-> <p align="center"> [!IMPORTANT] </p>
-> <p align="center"> <strong> A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações. </p> </strong>
+>  [!IMPORTANT]
+>  A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações. 
 
 | Campo | Preencha com informações |
 | --- | --- |
@@ -533,7 +534,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
  
 ## 📝 Como escrever uma documentação voltada para solução de problemas
 
-> Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação;<br>
+ Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação;<br>
  Inclua mensagens de erro e códigos de erro exatos sempre que disponíveis;<br>
  Documente o que **NÃO** funcionou, não apenas o que funcionou — isso economiza tempo para a próxima pessoa;<br>
  Adicione capturas de tela sempre que possível (anexe ao chamado ou insira diretamente);<br>
@@ -542,7 +543,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 ## 💎 Boas práticas para ordem de serviço ou chamados (tickets)
 
- > Sempre colete antes de começar: nome do usuário, nome da máquina, versão do SO e mensagem de erro exata; <br>
+  Sempre colete antes de começar: nome do usuário, nome da máquina, versão do SO e mensagem de erro exata; <br>
  Categorize os chamados corretamente desde o início — ajuda na análise de tendências; <br>
  Escale com contexto completo: o que você tentou, o que aconteceu, logs relevantes; <br>
  Feche chamados somente quando o usuário confirmar que o problema foi resolvido. <br>
