@@ -373,7 +373,7 @@ Configure uma ferramenta de monitoramento de rede (ex: *PRTG, Zabbix*); mantenha
 
 </div>
 
-> [!WARNING] <br>
+> [!WARNING]
 > ⚠️ Este é um incidente crítico de segurança. Siga os passos na ordem exata abaixo.
 
 <div align="center">
