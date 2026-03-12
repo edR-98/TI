@@ -18,7 +18,7 @@
 
 <p align="center"> 📌  Problemas comuns e soluções do dia a dia de um usuário ou que podem ocorrer em um ambiente corporativo. Do básico aos mais "complicados", com possíveis causas, solução passo a passo e dicas de prevenção. </p>
 
->[!NOTE] <br>
+> [!NOTE]
 > Você pode clicar nos *links* abaixo se quiser ir num tópico específico.
 
 | # | Problema | Categoria | Gravidade |
@@ -516,7 +516,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 ---
 
-> [!IMPORTANT] <br>
+> [!IMPORTANT]
 > A tabela abaixo é apenas um exemplo de como estruturar uma documentação, faça do seu jeito. Se você trabalha em um ambiente corporativo, provavelmente terá processos pré-estabelecidos para documentações.
 
 <div align="center">
