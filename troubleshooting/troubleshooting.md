@@ -37,7 +37,8 @@
 | 12 | <a href="#12--falha-no-disco-rígido-hdssd"> Falha no disco rígido (HD/SSD) </a>| Hardware / Armazenamento | 🔴 Crítica |
 | 13 | <a href="#13--vpn-não-conecta-acesso-remoto"> VPN não conecta (acesso remoto) </a> | Rede / Acesso Remoto | 🟠 Alta |
 | 14 | <a href="#14--servidor-sem-resposta--serviço-fora-do-ar">Servidor sem serviço / Serviço fora do ar </a>| Infraestrutura / Servidor | 🔴 Crítica |
-
+| 15 | <a href="#15--periféricos-param-de-funcionar"> Periféricos param de funcionar </a> | Hardware / Drivers | 🟡 Média |
+| 16 | <a href="#16--monitor-não-gera-vídeo-após-boot-ou-entram-no-modo-stand-by-em-uso"> Monitor não gera vídeo após *boot* ou entram no modo *stand-by* em uso | Periféricos | 🟡 Média |
 ---
 
 <div align="center">
@@ -510,7 +511,60 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 ---
 
+## 15 — Periféricos param de funcionar
+
+> 🟡 **Gravidade: Média | Afetados: Usuário único | 🗂️ Categoria: Periféricos**
+
+|🚨 Problema|
+|-----------|
+
+Usuários relatam que mouse, teclado ou outros periféricos param de funcionar.
+
+|🕵️ Possíveis causas|
+|-------------------|
+
+Atualizações de SO, drivers desatualizados ou conflitantes, portas USB danificadas ou incompatíveis, cabos danificados, portas e conexões sujas que impedem contato com o computador.
+
+|🛠️ Solução|
+|----------|
+
+1. Desconectar e reconectar - simples, mas resolve falhas de reconhecimentos em muitos casos.
+2. Verifique se não há conectores e cabos danificados ou sujos - sujeira pode impedir o contato necessário, deixando de funcionar;
+3. Teste o periférico em outras portas disponíveis ou em demais dispositivos - isso confirma se o problema está no sistema ou no periférico;
+4. Atualize ou reinstale o driver: Abra o *Gerenciador de Dispositivos* > clique direito no dispositivo > *Atualizar Driver* ou *Desinstalar* e reconecte.
+5. Se a causa for após atualização, reverta o driver: *Gerenciador de Dispositivos* > *Propriedades do Dispositivo* > aba *Driver* > *Reverter driver*.
+6. Desativar suspensão seletiva USB: Abra *Opções de energia* > *Configurações Avançadas* > *USB* > *Desativar suspensão seletiva*;
+7. Verifique o ID de hardware do periférico no *Gerenciador de Dispositivos* e pesquise o site do fabricante (Lenovo, HP, Dell, etc.) — muitos lançam drivers atualizados logo após grandes atualizações.
+
+---
+
+## 16 — Monitor não gera vídeo após *boot* ou entram no modo *stand-by* em uso.
+
+>  🟡 **Gravidade: Média | Afetados: Usuário único | Categoria: Periféricos**
+
+|🚨 Problema|
+|-----------|
+
+Um usuário relata que o monitor de sua máquina "parou de funcionar", mas o monitor está ligado em modo *stand-by*.
+
+|🕵️ Possíveis causas|
+|-------------------|
+
+Cabo solto ou mal conectado, cabo conectado na porta errada, GPU iniciada incorretamente, dano no cabo (especialmente em cabos VGA), configurações de múltiplos monitores, resolução ou frequência de tela incompatíveis.
+
+|🛠️ Solução|
+|----------|
+
+1. Remova e reconecte o cabo HDMI/VGA/DP;
+2. Remova e reconecte o cabo de energia do monitor;
+3. Veja se o cabo não está danificado e teste em uma outra máquina, se possível;
+4. Verifique se o cabo não está conectado na porta errada no E/S do PC: se a máquina possuir placa dedicada, conecte o cabo diretamente nela, não na entrada da placa-mãe.
+5. Faça um *power cycle* (desligar/ligar manualmente) para reiniciar o sistema e corrigir possíveis problemas de reconhecimento de vídeo.
+6. Para configurações de múltiplos monitores: o SO "lembra" de configurações passadas, mesmo se a opção de múltiplos monitores estiver desativada. Verifique se o monitor específico não está como secundário e desativado. Certifique que a resolução/atualização de tela é a correta.
+
 </div>
+
+---
 
 <h1 align="center"> 📋 Modelo de documentação </h1>
 
@@ -524,7 +578,7 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 | Campo | Preencha com informações |
 | --- | --- |
 | **Título** |  |
-| **Categoria** | Hardware / Software / Rede / Segurança |
+| **Categoria** | Hardware / Software / Rede / Segurança / Drivers |
 | **Gravidade** | 🟢 Baixa / 🟡 Média / 🟠 Alta / 🔴 Crítica |
 | **Afetados** | Usuário Único / Departamento / Toda a Empresa |
 | **Problema** | O que o usuário relatou... |
@@ -540,20 +594,30 @@ Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janela
 
 <h1 align="center"> 💡 Boas práticas de documentação </h1>
  
-## 📝 Como escrever uma documentação voltada para solução de problemas
+<h2 align="center"> 📝 Como escrever uma documentação voltada para solução de problemas </h2>
 
-1. Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação;<br>
-2. Inclua mensagens de erro e códigos de erro exatos sempre que disponíveis;<br>
-3. Documente o que **NÃO** funcionou, não apenas o que funcionou — isso economiza tempo para a próxima pessoa;<br>
-4. Adicione capturas de tela sempre que possível (anexe ao chamado ou insira diretamente);<br>
- 5. Revise e atualize os artigos quando uma solução melhor for encontrada; <br>
- 6. Adicione palavras-chave relevantes em cada artigo para facilitar a busca.
+<div align="center">
 
-## 💎 Boas práticas para ordem de serviço ou chamados (tickets)
 
-1. Sempre colete antes de começar: nome do usuário, nome da máquina, versão do SO e mensagem de erro exata; <br>
-2. Categorize os chamados corretamente desde o início — ajuda na análise de tendências; <br>
-3. Escale com contexto completo: o que você tentou, o que aconteceu, logs relevantes; <br>
-4. Feche chamados somente quando o usuário confirmar que o problema foi resolvido. <br>
+  1. Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação;<br>
+  2. Inclua mensagens de erro e códigos de erro exatos sempre que disponíveis;<br>
+  3. Documente o que **NÃO** funcionou, não apenas o que funcionou — isso economiza tempo para a próxima pessoa;<br>
+  4. Adicione capturas de tela sempre que possível (anexe ao chamado ou insira diretamente);<br>
+  5. Revise e atualize os artigos quando uma solução melhor for encontrada; <br>
+  6. Adicione palavras-chave relevantes em cada artigo para facilitar a busca.
+
+</div>
+
+<h2 align="center"> 💎 Boas práticas para ordem de serviço ou chamados (tickets) </h2>
+
+<div align="center">  
+
+
+  1. Sempre colete antes de começar: nome do usuário, nome da máquina, versão do SO e mensagem de erro exata; <br>
+  2. Categorize os chamados corretamente desde o início — ajuda na análise de tendências; <br>
+  3. Escale com contexto completo: o que você tentou, o que aconteceu, logs relevantes; <br>
+  4. Feche chamados somente quando o usuário confirmar que o problema foi resolvido. <br>
+
+</div>
 
 ---
