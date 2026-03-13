@@ -1,4 +1,4 @@
-<h1 align="center"> 🖥️  Minha Base de Conhecimento / Documentação </h1>
+<h1 align="center"> 🖥️ Minha Base de Conhecimento / Documentação </h1>
 
 <p align="center"> Criei esse arquivo em Markdown/HTML com a intenção de demonstrar meus conhecimentos em TI e exemplificar como desenvolver uma documentação simples, clara e de fácil entendimento. Essas qualidades são muito úteis não apenas em ambientes corporativos, mas também pessoalmente ou outros que venham ter os mesmos problemas. </p>
 
@@ -73,6 +73,10 @@ Cabo de energia solto, tomada com defeito, fonte de alimentação (PSU) com falh
 
 Realize verificações periódicas de hardware; use um nobreak (UPS) para proteção contra surtos de energia.
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 02 — Sem conexão com a Internet (Usuário Único)
@@ -104,6 +108,10 @@ Cabo desconectado, IP mal configurado, pilha de rede corrompida ou DNS incorreto
 |------|
 
 Use IPs estáticos para desktops em funções críticas; mantenha os drivers de rede atualizados.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
 
@@ -137,6 +145,10 @@ Serviço *Spooler* travado, trabalhos pendentes bloqueando a fila, impressora pa
 
 Defina o IP das impressoras como estático/reservado no DHCP para evitar mudanças de endereço.
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 04 — Senha do Windows esquecida (conta local)
@@ -167,6 +179,10 @@ Usuário esqueceu as credenciais; nenhuma dica de senha foi configurada.
 |-------------|
 
 Incentive o uso de gerenciadores de senha; configure perguntas de segurança; documente procedimentos de recuperação.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
 
@@ -199,6 +215,10 @@ Alto uso de CPU/RAM, disco cheio, muitos programas ativos na inicialização, ma
 |-------------|
 
 Agende manutenção mensal; aplique políticas de uso de disco; execute varreduras regulares de antivírus.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
 
@@ -234,6 +254,10 @@ Conflito de driver, RAM com falha, arquivos de sistema corrompidos ou superaquec
 
 Mantenha drivers e Windows atualizados; monitore temperaturas do hardware; evite drivers não oficiais.
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 07 — Usuário não consegue entrar no Domínio (Active Directory)
@@ -266,6 +290,10 @@ Conta *AD* expirada/bloqueada, máquina fora de sincronia com o domínio ou cred
 |---------|
 
 Configure políticas de bloqueio de conta; use alertas do AD para tentativas de login repetidas com falha.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
 
@@ -300,6 +328,10 @@ Perfil do Outlook corrompido, configurações de servidor incorretas, caixa de e
 
 Configure alertas de tamanho de caixa de entrada; treine usuários em arquivamento; use o SaRA preventivamente.
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 09 — Aplicativo fecha ao iniciar
@@ -333,6 +365,10 @@ Instalação corrompida, dependências ausentes (Visual C++, .NET) ou problemas 
 
 Mantenha uma lista de softwares aprovados; mantenha as dependências atualizadas via gerenciamento de patches.
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 10 — Sem internet — Rede inteira afetada
@@ -365,6 +401,10 @@ Falha no roteador/modem, queda do provedor (ISP), esgotamento do escopo DHCP ou 
 |-------------|
 
 Configure uma ferramenta de monitoramento de rede (ex: *PRTG, Zabbix*); mantenha o contato do provedor acessível; considere link de internet redundante.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
 
@@ -407,6 +447,10 @@ E-mail de phishing com anexo malicioso, download *drive-by* ou exploração de v
 
 Implemente backups regulares offline (regra 3-2-1); treine usuários sobre phishing; aplique patches rapidamente; use ferramentas de detecção e resposta em endpoints (EDR).
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 12 — Falha no disco rígido (HD/SSD)
@@ -440,6 +484,10 @@ Desgaste físico, setores defeituosos, corrupção de firmware ou defeito de fab
 
 Monitore dados *S.M.A.R.T* com ferramentas automatizadas; aplique políticas de backup; substitua proativamente discos com mais de 5 anos de uso.
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 13 — VPN não conecta (acesso remoto)
@@ -466,13 +514,17 @@ Login/senha incorretos, certificado expirado, firewall bloqueando portas de VPN 
 5. Desabilite temporariamente o *Firewall do Windows* e o antivírus para testar se estão bloqueando a conexão
 6. Verifique os logs do servidor VPN para códigos de erro específicos
 7. Se autenticação por certificado: verifique se o certificado não expirou e está corretamente instalado
-8. Teste com uma rede diferente (ex: roteador 4G) para descartar bloqueio do provedor de internet
+8. Teste com uma rede diferente (ex: roteador 4G) para descartar bloqueio do provedor de internet.
 
 
 |🏷️ Prevenções|
 |-------------|
 
 Automatize a renovação de certificados; mantenha políticas de atualização do cliente VPN; monitore a disponibilidade do gateway VPN.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
 
@@ -501,13 +553,17 @@ Esgotamento de recursos (CPU/RAM/disco), serviço com falha, hardware defeituoso
 6. Revise os logs do sistema: *Visualizador de Eventos* (Windows) ou *`/var/log/syslog`* (Linux) para identificar a causa
 7. Se o disco estiver cheio: identifique arquivos grandes e arquive ou exclua conforme apropriado
 8. Se suspeitar de falha de hardware: escale imediatamente para a equipe de infraestrutura sênior
-9. Comunique o status da interrupção aos usuários afetados e à gerência
+9. Comunique o status da interrupção aos usuários afetados e à gerência.
 
 
 |🏷️ Prevenções|
 |-------------|
 
 Implemente monitoramento de servidor (alertas de CPU, RAM, disco); agende janelas de manutenção regulares; mantenha runbooks documentados.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
 
@@ -536,6 +592,16 @@ Atualizações de SO, drivers desatualizados ou conflitantes, portas USB danific
 6. Desativar suspensão seletiva USB: Abra *Opções de energia* > *Configurações Avançadas* > *USB* > *Desativar suspensão seletiva*;
 7. Verifique o ID de hardware do periférico no *Gerenciador de Dispositivos* e pesquise o site do fabricante (Lenovo, HP, Dell, etc.) — muitos lançam drivers atualizados logo após grandes atualizações.
 
+|🏷️ Prevenções|
+|-------------|
+
+1. Em ambientes corporativos - mantenha uma política para atualização de drivers padrão.
+2. Tempo de uso degradam periféricos e suas funções - fique de olho ao estado físico de cada um.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 ## 16 — Monitor não gera vídeo após *boot* ou entram no modo *stand-by* em uso.
@@ -561,6 +627,19 @@ Cabo solto ou mal conectado, cabo conectado na porta errada, GPU iniciada incorr
 4. Verifique se o cabo não está conectado na porta errada no E/S do PC: se a máquina possuir placa dedicada, conecte o cabo diretamente nela, não na entrada da placa-mãe.
 5. Faça um *power cycle* (desligar/ligar manualmente) para reiniciar o sistema e corrigir possíveis problemas de reconhecimento de vídeo.
 6. Para configurações de múltiplos monitores: o SO "lembra" de configurações passadas, mesmo se a opção de múltiplos monitores estiver desativada. Verifique se o monitor específico não está como secundário e desativado. Certifique que a resolução/atualização de tela é a correta.
+
+|🏷️ Prevenções|
+|-------------|
+
+1. Conecte o cabo firmemente no monitor;
+2. Verifique se não há sujeira ou oxidação entre os pontos de conexão;
+3. Dê preferencia por usar cabos mais atuais como HDMI ou Display Port;
+4. Sempre mantenha drivers da placa dedicada atualizados;
+5. Em configurações de múltiplos monitores - revise e ajuste as configurações ao remover um deles para não gerar futuros conflitos.
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 </div>
 
@@ -590,6 +669,10 @@ Cabo solto ou mal conectado, cabo conectado na porta errada, GPU iniciada incorr
 
 </div>
 
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
+
 ---
 
 <h1 align="center"> 💡 Boas práticas de documentação </h1>
@@ -598,13 +681,16 @@ Cabo solto ou mal conectado, cabo conectado na porta errada, GPU iniciada incorr
 
 <div align="center">
 
-
   1. Sempre escreva em linguagem clara e simples — imagine que outras pessoas ou colegas eventualmente irão ler sua documentação;<br>
   2. Inclua mensagens de erro e códigos de erro exatos sempre que disponíveis;<br>
   3. Documente o que **NÃO** funcionou, não apenas o que funcionou — isso economiza tempo para a próxima pessoa;<br>
   4. Adicione capturas de tela sempre que possível (anexe ao chamado ou insira diretamente);<br>
   5. Revise e atualize os artigos quando uma solução melhor for encontrada; <br>
   6. Adicione palavras-chave relevantes em cada artigo para facilitar a busca.
+
+  <p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 </div>
 
@@ -619,5 +705,9 @@ Cabo solto ou mal conectado, cabo conectado na porta errada, GPU iniciada incorr
   4. Feche chamados somente quando o usuário confirmar que o problema foi resolvido. <br>
 
 </div>
+
+<p align="center">
+<a href="#-minha-base-de-conhecimento--documentação"> ⬆️ Voltar ao início </a>
+</p>
 
 ---
