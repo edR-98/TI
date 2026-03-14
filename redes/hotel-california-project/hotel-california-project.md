@@ -1,5 +1,3 @@
-<div align="center">
-
 >[!IMPORTANT] </br>
 > Esse projeto foi concluído e apresentado por mim durante o curso de Técnico em Informática pelo Senac São Carlos, no encerramento do segundo módulo voltado para redes;
 >
@@ -13,6 +11,8 @@
 >E sim - o nome do hotel é uma referência á musica "Hotel Califórnia", feita pelo Eagles na década de 70.
 
 ---
+
+<div align="center">
 
 
 
