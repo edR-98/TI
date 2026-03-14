@@ -131,9 +131,8 @@ Ganho de velocidade nas operações, maior número de transações por minuto, a
 Será utilizada a literatura técnica necessária como base de pesquisa, documentação técnica dos equipamentos fornecidos pelos fabricantes e normas técnicas para padronização. Estas informações serão coletadas por meio de sites, livros e manuais de instalação/configuração.
 
 
-
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 ---
 
@@ -243,7 +242,7 @@ A topologia de rede projetada para o hotel é do tipo **estrela**, onde todos os
 
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 ---
 
@@ -282,7 +281,7 @@ Neste projeto, o OSPF foi implementado em redes vizinhas (adjacências) e por á
 
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 ---
 
@@ -303,7 +302,7 @@ Os roteadores funcionam como servidores DHCP, "emprestando" endereços IP para d
 </div>
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 ---
 
@@ -368,7 +367,7 @@ Um switch pode gerenciar suas portas em diferentes modos. A configuração usada
 
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 </div>
 
@@ -383,7 +382,7 @@ Um switch pode gerenciar suas portas em diferentes modos. A configuração usada
 Para maior comodidade dos usuários locais, clientes e visitantes, o hotel conta com pontos de acesso wireless, um em cada piso. Como a área de cada piso é de 450m², poderão ser utilizados repetidores ou APs adicionais para cobrir o sinal sem deterioração.
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 ---
 
@@ -415,7 +414,7 @@ Essas configurações são capazes de lidar com as necessidades de armazenamento
 > *Figura 9 — Servidor FTP rack 1U. Fonte: Dell.*
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 </div>
 
@@ -457,7 +456,7 @@ Por padrão, roteadores não diferenciam pacotes genuínos de falsos. Extended A
 > *Figura 11 — Configuração de Extended ACL no roteador A2. Fonte: Cisco Packet Tracer, autoria própria.*
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 </div>
 
@@ -506,7 +505,7 @@ Todo o cabeamento da rede elétrica e lógica do projeto é aterrado em cada and
 > *Figura 14 — Planta baixa: Segundo Andar. Fonte: Autoria própria.*
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 </div>
 
@@ -554,7 +553,7 @@ Os cabeamentos elétricos e de rede utilizam diferentes estruturas para sair dos
 > *Figura 16 — Modelo de eletroduto utilizado na estrutura. Fonte: Autoria própria.*
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 </div>
 
@@ -595,7 +594,7 @@ Equipamento ativo (switch)
 > *Figura 18 — Tomada de telecomunicações padrão Cat6. Fonte: Autoria própria.*
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 </div>
 
@@ -644,7 +643,7 @@ Equipamento ativo (switch)
 > *Figura 21 — Distribuição do cabeamento elétrico e lógico no segundo andar. Fonte: Autoria própria.*
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 </div>
 
@@ -665,7 +664,7 @@ Este projeto demonstrou como empresas pequenas e médias podem utilizar uma infr
 A execução deste projeto melhorou o conhecimento em infraestrutura de equipamentos de telecomunicações, possibilitando o contato com diferentes soluções aplicadas no mundo real para os problemas e desafios que o tema propõe.
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
 ---
 
@@ -696,4 +695,4 @@ FURUKAWA. **Boas práticas de instalação em cabeamento estruturado**. Disponí
 </p>
 
 <p align="center">
-  <a href="Implantação-de-rede-estruturada--hotel-california"> <small> ⬆️ Voltar ao Sumário </small> </a> </p>
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
