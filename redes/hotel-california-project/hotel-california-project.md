@@ -429,7 +429,8 @@ Essas configurações são capazes de lidar com as necessidades de armazenamento
 
 Por padrão, roteadores não diferenciam pacotes genuínos de falsos. Extended ACLs permitem criar critérios e ações para permitir ou negar tráfegos específicos. O roteador verifica a lista de acesso de cima para baixo até encontrar uma correspondência.
 
-> [!IMPORTANT] </br>
+> [!IMPORTANT] 
+>
 > Existe uma regra implícita de `deny any` ao final de toda ACL. Portanto, apenas os tráfegos explicitamente permitidos passam.
 
 <p align="center"> <strong> Regras do projeto: </strong> </p>
