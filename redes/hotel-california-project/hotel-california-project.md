@@ -1,5 +1,5 @@
 
->[!IMPORTANT] </br>
+>[!IMPORTANT]
 > Esse projeto foi concluído e apresentado por mim durante o curso de Técnico em Informática pelo Senac São Carlos, no encerramento do segundo módulo voltado para redes;
 >
 > O projeto é fictício, mas plausível para implantação num ambiente real — no qual é o objetivo do curso.
@@ -9,7 +9,7 @@
 >
 > Para o projeto lógico, foi utlizado o app Cisco Packet Tracer. As imagens do projeto original juntamente com o .pkt se encontram na pasta [project-assets](./project-assets/). Para desenhos da planta baixa eu utilizei o [Microsoft Visio](https://www.microsoft.com/en-us/microsoft-365/visio).
 >
->E sim - o nome do hotel é uma referência á musica "Hotel Califórnia", feita pelo Eagles na década de 70.
+> E sim - o nome do hotel é uma referência á musica "Hotel Califórnia", feita pelo Eagles na década de 70.
 
 ---
 
