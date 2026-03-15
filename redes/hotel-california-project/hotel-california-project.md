@@ -439,30 +439,75 @@ Por padrão, roteadores não diferenciam pacotes genuínos de falsos. Extended A
 - Acessos **permitidos:** TI (VLAN 10), Diretoria (VLAN 20) e Marketing (VLAN 40);
 - Todas as demais redes: acesso **negado**.
 
-<p align="center"> <strong> Configuração aplicada no roteador A0: </strong> </p>
-
-
-<div align="center">
-
-![alt text](./project-assets/Figura_10.png)
-> *Figura 10 — Configuração de Extended ACL no roteador A0. Fonte: Cisco Packet Tracer, autoria própria.*
-
-</div>
-
 <p align="center"> <strong> Configuração aplicada no roteador A2: </strong> </p>
 
 
 <div align="center">
 
+![alt text](./project-assets/Figura_10.png)
+> *Figura 10 — Configuração de Extended ACL no roteador A2. Fonte: Cisco Packet Tracer, autoria própria.*
+
+</div>
+
+<p align="center"> <strong> Configuração aplicada no roteador A0: </strong> </p>
+
+
+<div align="center">
+
 ![alt text](./project-assets/Figura_11.png)
-> *Figura 11 — Configuração de Extended ACL no roteador A2. Fonte: Cisco Packet Tracer, autoria própria.*
+> *Figura 11 — Configuração de Extended ACL no roteador A0. Fonte: Cisco Packet Tracer, autoria própria.*
+
+
+</div>
+
+
+>![IMPORTANT]
+> Este é o jeito mais "complicado" de se aplicar as ACLs, já que estou usando regras mais granulares em dois roteadores (A2 e A0) definindo em várias linhas o que é permitido ou não trafegar.
+>
+> Uma outra maneira direta e simples de bloquear o acesso das VLANs indevidas ao servidor e manter as mesmas se comunicando com o restante da rede é aplicar uma regra no roteador A1 — que gerencia o servidor e as VLANs 10 e 20:
+>
+> ```
+>10 permit 10.0.1.0 0.0.0.127 172.16.0.48 0.0.0.7   
+>20 permit 10.0.2.0 0.0.0.127 172.16.0.48 0.0.0.7   ##  Abre as permissões devidas (VLAN 10, 20 e 40).
+>30 permit 10.0.4.0 0.0.0.127 172.16.0.48 0.0.0.7   
+>40 deny ip any 172.16.0.48 0.0.0.7                 ##  Nega qualquer outro acesso.
+>50 permit any any                                  ##  Abre tráfego entre o restante da rede.
+> ```
+
 
 <p align="center">
   <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
 
-</div>
 
 ---
+
+<h2 align="center"> Desenho Lógico </h2>
+
+> [!NOTE]
+> Este é o desenho lógico da rede no Packet Tracer, o mesmo encontrado no [arquivo .pkt](./project-assets/hotel-cali-8-1-1.pkt), porém não incluso na documentação original.
+
+
+  <div align="center">
+
+  ![alt text](./project-assets/logical-overview.png)
+
+
+  <p align="center">
+  <a href="#implantação-de-rede-estruturada--hotel-califórnia"> <small> ⬆️ Voltar ao Sumário </a> </small> </p>
+
+  </div>
+
+---
+  
+
+
+
+
+
+
+
+
+
 
 <div align="center">
 
