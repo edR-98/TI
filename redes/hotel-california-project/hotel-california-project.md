@@ -461,7 +461,7 @@ Por padrão, roteadores não diferenciam pacotes genuínos de falsos. Extended A
 </div>
 
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Este é o jeito mais "complicado" de se aplicar as ACLs, já que estou usando regras mais granulares em dois roteadores (A2 e A0) definindo em várias linhas o que é permitido ou não trafegar.
 >
 > Uma outra maneira direta e simples de bloquear o acesso das VLANs indevidas ao servidor e manter as mesmas se comunicando com o restante da rede é aplicar uma regra no roteador A1 — que gerencia o servidor e as VLANs 10 e 20:
