@@ -34,15 +34,15 @@
 ```
 📁 TI/
 │
-├── 📄 README.md                  ← Você está aqui / You are here
+├── 📄 README.md                    ← Você está aqui / You are here
 │
 ├── 📁 troubleshooting/
-│   └── 📄 troubleshooting.md     ← Guia básico em troubleshooting & documentações.
+│   └── 📄 troubleshooting.md       ← Guia básico em troubleshooting & documentações.
 │
-├── 📁 redes/                     ← Em breve / Coming soon
-│   └── ...
-│
-├── 📁 scripts/                   ← Em breve / Coming soon
+├── 📁 redes/                  ← Tudo sobre redes ou labs pessoais / All about networking or networking labs.
+│   
+|
+├── 📁 scripts/                     ← Em breve / Coming soon
    └── ...
 __________________________________________________________________________________________
 ```
