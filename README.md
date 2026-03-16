@@ -40,7 +40,7 @@
 │   └── 📄 troubleshooting.md       ← Guia básico em troubleshooting & documentações.
 │
 ├── 📁 redes/                  ← Tudo sobre redes ou labs pessoais / All about networking or networking labs.
-│   
+│   └── ...
 |
 ├── 📁 scripts/                     ← Em breve / Coming soon
    └── ...
