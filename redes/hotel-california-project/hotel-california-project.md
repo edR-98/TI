@@ -24,6 +24,9 @@
 **Autor:** Eduardo Oliveira Machado
 — **Turma:** 42 |  **Ano:** 2024
 
+
+![alt text](./project-assets/capa.png)
+
 </div>
 
 ---
